@@ -1,0 +1,13 @@
+{
+    "name": "lebster/test-package",
+    "type": "drupal-module",
+    "minimum-stability": "dev",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Anton Lebedev",
+            "email": "git@lebster.me"
+        }
+    ],
+    "require": {}
+}

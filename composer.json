@@ -9,12 +9,19 @@
             "role": ""
         }
     ],
-    "repositories": [
-        {
+    "repositories": {
+        "0": {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        "test-package": {
+            "type": "path",
+            "url": "packages/test-package",
+            "options": {
+              "symlink": true
+            }
         }
-    ],
+    },
     "require": {
         "php": ">=5.6",
         "composer/installers": "^1.2",
@@ -24,6 +31,7 @@
         "drupal/core": "^8.6.0",
         "drupal/devel": "^2.0",
         "drush/drush": "^9.0.0",
+        "lebster/test-package": "dev-master",
         "vlucas/phpdotenv": "^2.4",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3",

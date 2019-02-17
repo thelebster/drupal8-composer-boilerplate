@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9fcbb2ef0b4b0e9cdd5ec4fc2f74a7fa",
+    "content-hash": "1e99d236e3193470ad7278009fa65c47",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3073,6 +3073,28 @@
                 "service"
             ],
             "time": "2017-05-10T09:20:27+00:00"
+        },
+        {
+            "name": "lebster/test-package",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "packages/test-package",
+                "reference": "72e7f05ce6b7a7c0cf288f54e2ca9f00626d5742"
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Lebedev",
+                    "email": "git@lebster.me"
+                }
+            ],
+            "transport-options": {
+                "symlink": true
+            }
         },
         {
             "name": "masterminds/html5",
@@ -7954,7 +7976,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "lebster/test-package": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
